@@ -3,7 +3,7 @@ import csv
 import math
 
 #Locate file
-electiondata_csv=os.path.join("election_data.csv")
+electiondata_csv=os.path.join("./Resources/election_data.csv")
 
 #Set Lists and Variables 
 total_votes=[]
@@ -89,7 +89,7 @@ print ("----------------------------")
 
 #Text File Output
 
-finaloutput=os.path.join("finaloutput.txt")
+finaloutput=os.path.join("./Analysis/finaloutput.txt")
 
 with open(finaloutput,"w") as fileoutput:
     fileoutput.write("                                  ")

@@ -3,7 +3,7 @@ import csv
 import math
 
 #Locate file
-budgetdata_csv=os.path.join("budget_data.csv")
+budgetdata_csv=os.path.join("./Resources/budget_data.csv")
 
 #Set Lists and Variables 
 total_months=[]
@@ -48,7 +48,7 @@ print (f"Greatest Decrease in Profits:{total_months[Greatestdecrease_month]} (${
 
 #Text File Output
 
-finaloutput=os.path.join("finaloutput.txt")
+finaloutput=os.path.join("./Analysis/finaloutput.txt")
 
 with open(finaloutput,"w") as fileoutput:
     fileoutput.write("                                  ")
