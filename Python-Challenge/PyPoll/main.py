@@ -15,7 +15,6 @@ li_votes=0
 otooley_votes=0
 
 
-
 #Open/read file 
 with open(electiondata_csv, newline="",encoding="utf-8") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
